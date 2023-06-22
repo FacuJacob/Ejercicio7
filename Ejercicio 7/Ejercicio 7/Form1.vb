@@ -7,7 +7,7 @@
         Next
         For j = 1 To 4
             vectorb(j) = vectora(j + 4)
-            vectorb(j) = vectora(j)
+            vectorb(j + 4) = vectora(j)
         Next
 
         lstVectorA.Items.Clear()
